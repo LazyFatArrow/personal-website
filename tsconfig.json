@@ -27,7 +27,6 @@
       "@nuxt/types",
       "@nuxt/content",
       "@types/node",
-      "@vue-router/types",
     ]
   },
   "exclude": [
