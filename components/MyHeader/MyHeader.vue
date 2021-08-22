@@ -29,8 +29,14 @@
         class="lg:hidden"
         @click="toggleMenu"
       >
-        <close-icon v-if="isMenuOpen" />
-        <menu-icon v-else />
+        <close-icon
+          v-if="isMenuOpen"
+          aria-hidden="true"
+        />
+        <menu-icon
+          v-else
+          aria-hidden="true"
+        />
       </button>
 
       <navigation class="items-center hidden lg:flex" />
