@@ -21,7 +21,7 @@
         </nuxt-link>
       </div>
 
-      <!-- using isMenuOpen.toString() to force vue to add the attribute with a the value 'false' -->
+      <!-- using isMenuOpen.toString() to force vue to add the attribute when the value is 'false' -->
       <button
         :aria-expanded="isMenuOpen.toString()"
         aria-label="Toggle navigation"
