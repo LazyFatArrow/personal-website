@@ -1,0 +1,60 @@
+<template>
+  <ul>
+    <li
+      v-for="item in items"
+      :key="item.path"
+      class="hover:text-indigo-700"
+      :class="{
+        'text-indigo-700': item.path === $route.path,
+        'first:mt-0 mt-4': isVertical,
+        'mx-4 first:ml-0 last:mr-0': !isVertical,
+      }"
+    >
+      <nuxt-link :to="item.path">
+        {{ item.name }}
+
+        <span
+          v-if="item.path === $route.path"
+          class="sr-only"
+        >
+          (current)
+        </span>
+      </nuxt-link>
+    </li>
+  </ul>
+</template>
+
+<script lang="ts">
+  import Vue from 'vue'
+
+  export default Vue.extend({
+    props: {
+      isVertical: {
+        type: Boolean,
+        default: false,
+      },
+    },
+    data() {
+      return {
+        items: [
+          {
+            name: 'Home',
+            path: '/',
+          },
+          {
+            name: 'Projects',
+            path: '/projects',
+          },
+          {
+            name: 'Blog',
+            path: '/blog',
+          },
+          {
+            name: 'Download Resume',
+            path: '/download-resume',
+          },
+        ],
+      }
+    },
+  })
+</script>
