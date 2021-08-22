@@ -25,6 +25,7 @@
       <button
         :aria-expanded="isMenuOpen.toString()"
         aria-label="Toggle navigation"
+        aria-controls="#navbarSupportedContent"
         class="lg:hidden"
         @click="toggleMenu"
       >
@@ -36,6 +37,7 @@
     </div>
 
     <navigation
+      id="navbarSupportedContent"
       is-vertical
       class="
         transition-height
