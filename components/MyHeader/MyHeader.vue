@@ -7,20 +7,15 @@
   >
     <div
       class="
-      flex
-      justify-between
-      pt-8
-      lg:px-24
-      px-6
-      items-center
-    "
+        flex
+        justify-end
+        pt-8
+        lg:px-24
+        xl:px-48
+        px-6
+        items-center
+      "
     >
-      <div class="lg:text-4xl uppercase">
-        <nuxt-link to="/">
-          Amenallah Hsoumi
-        </nuxt-link>
-      </div>
-
       <!-- using isMenuOpen.toString() to force vue to add the attribute when the value is 'false' -->
       <button
         :aria-expanded="isMenuOpen.toString()"
@@ -39,10 +34,10 @@
         />
       </button>
 
-      <navigation class="items-center hidden lg:flex" />
+      <main-navigation class="items-center hidden lg:flex" />
     </div>
 
-    <navigation
+    <main-navigation
       id="navbarSupportedContent"
       is-vertical
       class="
@@ -66,7 +61,7 @@
 
 <script lang="ts">
   import Vue from 'vue'
-  import Navigation from '@/components/Navigation/Navigation.vue'
+  import MainNavigation from '@/components/MainNavigation/MainNavigation.vue'
   import CloseIcon from '@/components/icons/CloseIcon.vue'
   import MenuIcon from '@/components/icons/MenuIcon.vue'
 
@@ -74,7 +69,7 @@
     components: {
       MenuIcon,
       CloseIcon,
-      Navigation,
+      MainNavigation,
     },
     data() {
       return {
