@@ -6,11 +6,21 @@
       class="hover:text-indigo-700"
       :class="{
         'text-indigo-700': item.path === $route.path,
-        'first:mt-0 mt-4': isVertical,
-        'mx-4 first:ml-0 last:mr-0': !isVertical,
+        'first:mt-0 mt-4': vertical,
+        'mx-4 first:ml-0 last:mr-0': !vertical,
       }"
     >
-      <nuxt-link :to="item.path">
+      <component
+        :is="item.external ? 'a' : 'nuxt-link'"
+        v-bind="
+          item.external
+            ? {
+              href: item.path,
+              target: '_blank'
+            }
+            : { to: item.path }
+        "
+      >
         {{ item.name }}
 
         <span
@@ -19,7 +29,7 @@
         >
           (current)
         </span>
-      </nuxt-link>
+      </component>
     </li>
   </ul>
 </template>
@@ -29,7 +39,7 @@
 
   export default Vue.extend({
     props: {
-      isVertical: {
+      vertical: {
         type: Boolean,
         default: false,
       },
@@ -42,12 +52,9 @@
             path: '/',
           },
           {
-            name: 'Projects',
-            path: '/projects',
-          },
-          {
             name: 'Blog',
-            path: '/blog',
+            path: 'https://whatthecode.dev/',
+            external: true,
           },
           {
             name: 'Download Resume',
