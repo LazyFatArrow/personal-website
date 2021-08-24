@@ -1,8 +1,8 @@
 <template>
   <div
     class="
-      w-24
-      h-24
+      w-36
+      h-36
       relative
       mb-4
     "

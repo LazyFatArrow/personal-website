@@ -1,11 +1,16 @@
 <template>
   <div>
-    content goes here
+    <about-me />
   </div>
 </template>
 
 <script lang="ts">
   import Vue from 'vue'
+  import AboutMe from '@/components/AboutMe/AboutMe.vue'
 
-  export default Vue.extend({})
+  export default Vue.extend({
+    components: {
+      AboutMe,
+    },
+  })
 </script>
