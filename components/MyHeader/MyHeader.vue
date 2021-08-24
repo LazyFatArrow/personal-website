@@ -39,7 +39,7 @@
 
     <main-navigation
       id="navbarSupportedContent"
-      is-vertical
+      vertical
       class="
         transition-height
         duration-500
