@@ -73,6 +73,12 @@ module.exports = {
         allowFirstLine: false,
       },
     }],
+    'max-len': [
+      'error',
+      {
+        code: 156,
+      },
+    ],
   },
   overrides: [
     {
