@@ -10,7 +10,7 @@
       rounded
     "
     :class="{
-      'bg-blue-500 hover:bg-blue-800': variant === Variant.PRIMARY,
+      'bg-blue-800 hover:bg-blue-900': variant === Variant.PRIMARY,
       'bg-blue-600 hover:bg-blue-700': variant === Variant.SECONDARY,
     }"
   >
