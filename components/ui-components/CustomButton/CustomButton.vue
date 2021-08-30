@@ -1,5 +1,7 @@
 <template>
-  <button
+  <component
+    :is="type === Type.BUTTON ? 'button' : 'a'"
+    :href="link"
     class="
       text-white
       font-bold
@@ -13,7 +15,7 @@
     }"
   >
     <slot />
-  </button>
+  </component>
 </template>
 
 <script lang="ts">
@@ -24,6 +26,11 @@
     SECONDARY = 'secondary',
   }
 
+  enum Type {
+    BUTTON = 'button',
+    LINK = 'link'
+  }
+
   export default Vue.extend({
     props: {
       variant: {
@@ -31,10 +38,20 @@
         default: Variant.PRIMARY,
         validator: value => Object.values(Variant).includes(value as Variant),
       },
+      type: {
+        type: String,
+        default: Type.BUTTON,
+        validator: value => Object.values(Type).includes(value as Type),
+      },
+      link: {
+        type: String,
+        default: null,
+      },
     },
     data() {
       return {
         Variant,
+        Type,
       }
     },
   })
