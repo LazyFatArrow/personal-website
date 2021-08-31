@@ -38,6 +38,7 @@
           href="https://github.com/LazyFatArrow"
           aria-label="github profile"
           target="_blank"
+          rel="noopener"
         >
           <github-icon class="w-5 h-5" />
         </a>
@@ -46,6 +47,7 @@
           href="https://www.linkedin.com/in/amenallah-hsoumi/"
           aria-label="linkedin profile"
           target="_blank"
+          rel="noopener"
         >
           <linkedin-icon class="w-5 h-5 ml-4 text-blue-700 fill-current" />
         </a>

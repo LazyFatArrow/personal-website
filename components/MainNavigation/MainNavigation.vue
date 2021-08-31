@@ -16,7 +16,8 @@
           item.external
             ? {
               href: item.path,
-              target: '_blank'
+              target: '_blank',
+              rel: 'noopener'
             }
             : { to: item.path }
         "

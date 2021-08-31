@@ -18,6 +18,7 @@
         variant="secondary"
         type="link"
         target="_blank"
+        rel="noopener"
       >
         Check it out
       </custom-button>
