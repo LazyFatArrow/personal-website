@@ -2,9 +2,13 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  server: {
+    host: '0', // default: localhost
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'amenallah',
+    title: 'Amenallah Hsoumi - Software Developer',
     meta: [
       {
         charset: 'utf-8',
@@ -16,7 +20,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: '',
+        content: 'I write code to solve real-world problems and build business applications as a developer',
       },
       {
         name: 'format-detection',
@@ -34,6 +38,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/css/index.css',
     '~/assets/css/tailwind.css',
   ],
 

@@ -8,10 +8,19 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        height: 'height',
+      },
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      margin: [
+        'first',
+        'last',
+      ],
+    },
   },
   plugins: [],
 }
