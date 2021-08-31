@@ -2,7 +2,7 @@
   <section class="lg:mt-12 mt-16 mx-auto lg:w-96 w-72">
     <div class="flex flex-col items-center pb-4 border-gray-300">
       <h2 class="text-lg">
-        wanna discuss something 🤔 ?
+        wanna discuss something 🤔?
       </h2>
 
       <div class="mt-4">
@@ -10,7 +10,7 @@
           type="link"
           link="mailto:amenallah.hsoumi@gmail.com"
         >
-          Lets get in touch then!
+          Then lets get in touch!
         </custom-button>
       </div>
     </div>
