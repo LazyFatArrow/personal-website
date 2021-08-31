@@ -8,7 +8,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'amenallah',
+    title: 'Amenallah Hsoumi - Software Developer',
     meta: [
       {
         charset: 'utf-8',
@@ -20,7 +20,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: '',
+        content: 'I write code to solve real-world problems and build business applications as a developer',
       },
       {
         name: 'format-detection',
