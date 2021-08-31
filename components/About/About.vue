@@ -51,6 +51,15 @@
         >
           <linkedin-icon class="w-5 h-5 ml-4 text-blue-700 fill-current" />
         </a>
+
+        <a
+          href="https://medium.com/@amenallah.hsoumi"
+          aria-label="medium profile"
+          target="_blank"
+          rel="noopener"
+        >
+          <medium-icon class="w-5 h-5 ml-4" />
+        </a>
       </div>
     </div>
   </section>
@@ -59,6 +68,7 @@
 <script lang="ts">
   import Vue from 'vue'
   import LinkedinIcon from '../icons/LinkedinIcon.vue'
+  import MediumIcon from '../icons/MediumIcon.vue'
   import Avatar from '@/components/ui-components/Avatar/Avatar.vue'
   import GithubIcon from '@/components/icons/GithubIcon.vue'
 
@@ -67,6 +77,7 @@
       Avatar,
       GithubIcon,
       LinkedinIcon,
+      MediumIcon,
     },
   })
 </script>
