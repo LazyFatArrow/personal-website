@@ -1,5 +1,5 @@
 <template>
-  <section class="lg:mt-32 mt-24 mx-auto lg:w-96 w-72">
+  <section class="lg:mt-32 mt-10 mx-auto lg:w-96 w-72">
     <div
       class="
         flex

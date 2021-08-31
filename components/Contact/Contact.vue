@@ -1,5 +1,5 @@
 <template>
-  <section class="lg:mt-32 mt-24 flex justify-center">
+  <section class="lg:mt-16 mt-10 flex justify-center">
     <div class="flex flex-col pb-4">
       <custom-button
         type="link"
