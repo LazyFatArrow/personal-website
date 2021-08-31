@@ -58,7 +58,8 @@
           },
           {
             name: 'Download Resume',
-            path: '/download-resume',
+            path: 'https://drive.google.com/file/d/1mCAnnxDo8pgyhq_W3zw3eDBMJ6RA-Qrc/view?usp=sharing',
+            external: true,
           },
         ],
       }
