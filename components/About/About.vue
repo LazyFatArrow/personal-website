@@ -40,7 +40,7 @@
           target="_blank"
           rel="noopener"
         >
-          <github-icon class="w-5 h-5" />
+          <github-icon class="lg:w-5 lg:h-5 w-12 h-12" />
         </a>
 
         <a
@@ -49,7 +49,18 @@
           target="_blank"
           rel="noopener"
         >
-          <linkedin-icon class="w-5 h-5 ml-4 text-blue-700 fill-current" />
+          <linkedin-icon
+            class="
+              lg:w-5
+              lg:h-5
+              lg:ml-4
+              w-12
+              h-12
+              ml-8
+              text-blue-700
+              fill-current
+            "
+          />
         </a>
 
         <a
@@ -58,7 +69,7 @@
           target="_blank"
           rel="noopener"
         >
-          <medium-icon class="w-5 h-5 ml-4" />
+          <medium-icon class="lg:w-5 lg:h-5 lg:ml-4 w-12 h-12 ml-8" />
         </a>
       </div>
     </div>
