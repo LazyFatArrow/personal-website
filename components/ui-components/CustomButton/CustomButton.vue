@@ -11,7 +11,7 @@
     "
     :class="{
       'bg-blue-800 hover:bg-blue-900': variant === Variant.PRIMARY,
-      'bg-blue-600 hover:bg-blue-700': variant === Variant.SECONDARY,
+      'bg-gray-300 hover:bg-gray-400 text-gray-900': variant === Variant.SECONDARY,
     }"
   >
     <slot />
