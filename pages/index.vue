@@ -2,9 +2,7 @@
   <div>
     <about />
 
-    <project-list
-      :projects="projects"
-    />
+    <project-list :projects="projects" />
 
     <contact />
   </div>
@@ -28,6 +26,16 @@
       return {
         projects,
       }
+    },
+    head: {
+      title: 'Amenallah Hsoumi - Software Developer',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'I write code to solve real-world problems and build business applications as a developer',
+        },
+      ],
     },
   })
 </script>
