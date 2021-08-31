@@ -8,6 +8,9 @@
       py-2
       px-8
       rounded
+      text-center
+      lg:inline
+      block
     "
     :class="{
       'bg-blue-800 hover:bg-blue-900': variant === Variant.PRIMARY,
