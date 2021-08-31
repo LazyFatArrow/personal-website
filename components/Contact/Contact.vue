@@ -1,12 +1,18 @@
 <template>
-  <section class="lg:mt-16 mt-10 flex justify-center">
-    <div class="flex flex-col pb-4">
-      <custom-button
-        type="link"
-        link="mailto:amenallah.hsoumi@gmail.com"
-      >
-        Get in touch
-      </custom-button>
+  <section class="lg:mt-12 mt-16 mx-auto lg:w-96 w-72">
+    <div class="flex flex-col items-center pb-4 border-gray-300">
+      <h2 class="text-lg">
+        wanna discuss something 🤔 ?
+      </h2>
+
+      <div class="mt-4">
+        <custom-button
+          type="link"
+          link="mailto:amenallah.hsoumi@gmail.com"
+        >
+          Lets get in touch then!
+        </custom-button>
+      </div>
     </div>
   </section>
 </template>
