@@ -67,8 +67,8 @@
 
 <script lang="ts">
   import Vue from 'vue'
-  import LinkedinIcon from '../icons/LinkedinIcon.vue'
-  import MediumIcon from '../icons/MediumIcon.vue'
+  import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
+  import MediumIcon from '@/components/icons/MediumIcon.vue'
   import Avatar from '@/components/ui-components/Avatar/Avatar.vue'
   import GithubIcon from '@/components/icons/GithubIcon.vue'
 
