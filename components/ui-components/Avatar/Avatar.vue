@@ -32,6 +32,7 @@
       >
         {{ alt }}
       </span>
+
       <img
         :src="src"
         :alt="alt"
