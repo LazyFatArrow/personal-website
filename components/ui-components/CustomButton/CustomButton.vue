@@ -1,6 +1,6 @@
 <template>
   <component
-    :is="variant === Variant.LINK ? 'a' : 'button'"
+    :is="link ? 'a' : 'button'"
     :href="link"
     class="
       text-white
@@ -13,7 +13,7 @@
     :class="{
       'bg-blue-800 hover:bg-blue-900': variant === Variant.PRIMARY,
       'bg-gray-300 hover:bg-gray-400 text-gray-900': variant === Variant.SECONDARY,
-      'text-indigo-700': variant === Variant.LINK,
+      'text-blue-800': variant === Variant.LINK,
       'py-2 px-8': variant !== Variant.LINK,
     }"
   >
