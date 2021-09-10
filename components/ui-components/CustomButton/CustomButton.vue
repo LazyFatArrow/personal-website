@@ -1,12 +1,10 @@
 <template>
   <component
-    :is="type === Type.BUTTON ? 'button' : 'a'"
+    :is="variant === Variant.LINK ? 'a' : 'button'"
     :href="link"
     class="
       text-white
       font-bold
-      py-2
-      px-8
       rounded
       text-center
       lg:inline
@@ -15,6 +13,8 @@
     :class="{
       'bg-blue-800 hover:bg-blue-900': variant === Variant.PRIMARY,
       'bg-gray-300 hover:bg-gray-400 text-gray-900': variant === Variant.SECONDARY,
+      'text-indigo-700': variant === Variant.LINK,
+      'py-2 px-8': variant !== Variant.LINK,
     }"
   >
     <slot />
@@ -27,11 +27,7 @@
   enum Variant {
     PRIMARY = 'primary',
     SECONDARY = 'secondary',
-  }
-
-  enum Type {
-    BUTTON = 'button',
-    LINK = 'link'
+    LINK = 'link',
   }
 
   export default Vue.extend({
@@ -41,11 +37,6 @@
         default: Variant.PRIMARY,
         validator: value => Object.values(Variant).includes(value as Variant),
       },
-      type: {
-        type: String,
-        default: Type.BUTTON,
-        validator: value => Object.values(Type).includes(value as Type),
-      },
       link: {
         type: String,
         default: null,
@@ -54,7 +45,6 @@
     data() {
       return {
         Variant,
-        Type,
       }
     },
   })
