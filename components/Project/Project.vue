@@ -15,8 +15,7 @@
       <custom-button
         :aria-label="`go to ${name}`"
         :link="link"
-        variant="secondary"
-        type="link"
+        variant="link"
         target="_blank"
         rel="noopener"
       >

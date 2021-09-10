@@ -6,10 +6,7 @@
       </h2>
 
       <div class="mt-4">
-        <custom-button
-          type="link"
-          link="mailto:amenallah.hsoumi@gmail.com"
-        >
+        <custom-button link="mailto:amenallah.hsoumi@gmail.com">
           Then lets get in touch!
         </custom-button>
       </div>
