@@ -10,7 +10,7 @@
 
 <script lang="ts">
   import Vue from 'vue'
-  import ProjectList from '../components/ProjectList/ProjectList.vue'
+  import ProjectList from '@/components/ProjectList/ProjectList.vue'
   import Contact from '@/components/Contact/Contact.vue'
   import About from '@/components/About/About.vue'
 

@@ -25,7 +25,8 @@
 
 <script lang="ts">
   import Vue from 'vue'
-  import Project, { ProjectDetails } from '@/components/Project/Project.vue'
+  import Project from '@/components/Project/Project.vue'
+  import { ProjectDetails } from '@/types/ProjectDetails'
 
   export default Vue.extend({
     components: {

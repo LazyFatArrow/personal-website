@@ -16,7 +16,7 @@
         items-center
       "
     >
-      <!-- using isMenuOpen.toString() to force vue to add the attribute when the value is 'false' -->
+      <!-- using .toString() to force vue to add the attribute when the value is 'false' -->
       <button
         :aria-expanded="isMenuOpen.toString()"
         aria-label="Toggle navigation"

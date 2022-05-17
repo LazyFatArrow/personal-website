@@ -29,13 +29,6 @@
   import Vue from 'vue'
   import CustomButton from '@/components/ui-components/CustomButton/CustomButton.vue'
 
-  export interface ProjectDetails {
-    name: string,
-    description: string,
-    link?: string,
-    slug: string,
-  }
-
   export default Vue.extend({
     components: {
       CustomButton,
