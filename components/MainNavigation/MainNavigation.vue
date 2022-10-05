@@ -54,7 +54,7 @@
           },
           {
             name: 'Blog',
-            path: 'https://whatthecode.dev/',
+            path: 'https://runthatline.com/',
             external: true,
           },
           {
