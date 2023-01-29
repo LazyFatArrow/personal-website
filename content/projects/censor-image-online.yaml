@@ -1,5 +1,0 @@
-name: Censor Image Online
-description: >-
-  Censor image online is a small tool for censoring images, built as a static website,
-  it uses javascript for blurring and doesnt do any server side processing.
-link: https://censorimageonline.com
