@@ -21,15 +21,15 @@
       </h1>
 
       <h2 class="mt-2 text-gray-500">
-        Senior Frontend Developer @
+        Senior Frontend Engineer @
 
         <a
           class="text-purple-600"
-          href="http://check24.de/"
+          href="https://www.canva.com/"
           target="_blank"
           rel="noopener"
         >
-          Check24
+          Canva
         </a>
       </h2>
 
