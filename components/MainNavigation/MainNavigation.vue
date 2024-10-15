@@ -59,7 +59,7 @@
           },
           {
             name: 'Resume',
-            path: 'https://drive.google.com/file/d/1QV-ztaBFco7JhzZ4jqIgPTVYWz6EX_m7/view?usp=sharing',
+            path: 'https://drive.google.com/file/d/1-Y5Xj5EvjTVWRRnQe3vbHOqxcYfOgTaH/view?usp=sharing',
             external: true,
           },
         ],
