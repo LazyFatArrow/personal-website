@@ -57,11 +57,6 @@
             path: 'https://runthatline.com/',
             external: true,
           },
-          {
-            name: 'Resume',
-            path: 'https://drive.google.com/file/d/1-Y5Xj5EvjTVWRRnQe3vbHOqxcYfOgTaH/view?usp=sharing',
-            external: true,
-          },
         ],
       }
     },
